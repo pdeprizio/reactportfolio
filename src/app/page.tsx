@@ -4,12 +4,12 @@ import Head from 'next/head';
 import Image from "next/legacy/image";
 import {BsFillMoonFill} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
-import selfie from '../images/selfie.jpg';
-import web1 from '../images/oghdr.png';
-import web2 from '../images/jreptiles.png';
-import web3 from '../images/hdr1.png';
-import web4 from '../images/hdr2.png';
-import web5 from '../images/chippyd.png';
+import Selfie from '../public/selfie.jpg';
+import Web1 from '../public/oghdr.png';
+import Web2 from '../public/jreptiles.png';
+import Web3 from '../public/hdr1.png';
+import Web4 from '../public/hdr2.png';
+import Web5 from '../public/chippyd.png';
 import { useState } from 'react';
 import {BsFillBrushFill} from 'react-icons/bs';
 import {BsGraphUpArrow} from 'react-icons/bs';
@@ -66,7 +66,7 @@ export default function Home() {
            </div>
            
            <div className='flex justify-center items-center h-full m-5'>
-            <Image  src={selfie} alt='selfie' width={300} height={400} className='rounded-lg shadow-lg p-4'/>
+            <Image  src={Selfie} alt='selfie' width={300} height={400} className='rounded-lg shadow-lg p-4'/>
            </div>
         </section>
 
@@ -125,20 +125,20 @@ export default function Home() {
           </div>
          <div className='flex flex-col gap-10 py-10 lg:flex-row'>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://www.chippysangels.org"><Image src={web5}  alt='chippysangels' className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://www.chippysangels.org"><Image src={Web5}  alt='chippysangels' className='rounded-lg object-contain'  layout='responsive' /></a>
             
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://www.homedocrestoration.com"><Image src={web4} alt='homedocrestoration' className='rounded-lg object-contain' layout='responsive' /></a>
+            <a href="https://www.homedocrestoration.com"><Image src={Web4} alt='homedocrestoration' className='rounded-lg object-contain' layout='responsive' /></a>
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://pdeprizio.github.io/homedoc-site/"><Image src={web3} alt='homedoc1' className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://pdeprizio.github.io/homedoc-site/"><Image src={Web3} alt='homedoc1' className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://www.jreptiles.com"><Image src={web2} alt='jreptiles' className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://www.jreptiles.com"><Image src={Web2} alt='jreptiles' className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://joechiarello333.wixsite.com/website-1"><Image src={web1} alt='originalhdr' className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://joechiarello333.wixsite.com/website-1"><Image src={Web1} alt='originalhdr' className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
          </div>
         </section>
