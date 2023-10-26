@@ -14,6 +14,7 @@ import { useState } from 'react';
 import {BsFillBrushFill} from 'react-icons/bs';
 import {BsGraphUpArrow} from 'react-icons/bs';
 import {BsFillLightbulbFill} from 'react-icons/bs';
+import 'tailwindcss/tailwind.css'; 
 
 
 
