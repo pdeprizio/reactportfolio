@@ -1,17 +1,15 @@
+"use client";
+
 import Head from 'next/head';
 import Image from "next/legacy/image";
-import styles from '@/styles/Home.module.css';
 import {BsFillMoonFill} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillInstagram, AiFillGithub} from 'react-icons/ai';
-import selfie from '.../public/selfie.jpg';
-import magic from '.../public/magic-wand.png';
-import responsive from '.../public/responsive.png';
-import seo from '.../public/seo.png';
-import web1 from '.../public/oghdr.png';
-import web2 from '.../public/jreptiles.png';
-import web3 from '.../public/hdr1.png';
-import web4 from '.../public/hdr2.png';
-import web5 from '.../public/chippyd.png';
+import selfie from '../images/selfie.jpg';
+import web1 from '../images/oghdr.png';
+import web2 from '../images/jreptiles.png';
+import web3 from '../images/hdr1.png';
+import web4 from '../images/hdr2.png';
+import web5 from '../images/chippyd.png';
 import { useState } from 'react';
 import {BsFillBrushFill} from 'react-icons/bs';
 import {BsGraphUpArrow} from 'react-icons/bs';
