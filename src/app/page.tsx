@@ -78,7 +78,7 @@ export default function Home() {
             <p className='text-lg py-2 leading-8 text-gray-800 dark:text-gray-200 text-center'>I offer a diverse range of services tailored to your unique needs. 
             From crafting intuitive user experiences and building responsive websites to implementing effective SEO strategies, I specialize in transforming ideas into 
             impactful digital solutions. With a client-centric approach, I prioritize your goals, ensuring seamless collaboration and outstanding results. My passion for 
-            technology, coupled with a commitment to innovation, drives me to deliver high-quality work. Let's collaborate and elevate your digital presence.</p>
+            technology, coupled with a commitment to innovation, drives me to deliver high-quality work. Let&rsquo;s collaborate and elevate your digital presence.</p>
           </div>
 
 
