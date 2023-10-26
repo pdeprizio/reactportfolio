@@ -124,20 +124,20 @@ export default function Home() {
           </div>
          <div className='flex flex-col gap-10 py-10 lg:flex-row'>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://www.chippysangels.org"><Image src={web5}  className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://www.chippysangels.org"><Image src={web5}  alt='' className='rounded-lg object-contain'  layout='responsive' /></a>
             
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://www.homedocrestoration.com"><Image src={web4} className='rounded-lg object-contain' layout='responsive' /></a>
+            <a href="https://www.homedocrestoration.com"><Image src={web4} alt='' className='rounded-lg object-contain' layout='responsive' /></a>
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://pdeprizio.github.io/homedoc-site/"><Image src={web3} className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://pdeprizio.github.io/homedoc-site/"><Image src={web3} alt='' className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://www.jreptiles.com"><Image src={web2} className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://www.jreptiles.com"><Image src={web2} alt='' className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
           <div className='basis-1/2 flex-1 shadow-md'>
-            <a href="https://joechiarello333.wixsite.com/website-1"><Image src={web1} className='rounded-lg object-contain'  layout='responsive' /></a>
+            <a href="https://joechiarello333.wixsite.com/website-1"><Image src={web1} alt='' className='rounded-lg object-contain'  layout='responsive' /></a>
           </div>
          </div>
         </section>
