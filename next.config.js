@@ -6,7 +6,7 @@ const assetPrefix = isProduction ? '/' : '/'; // For production, assetPrefix is 
 const nextConfig = {
   basePath: basePath,
   assetPrefix: assetPrefix,
-  output: 'export', // Enable static HTML export
+  // Enable static HTML export
   experimental: {
     images: true,
     // other experimental options...
